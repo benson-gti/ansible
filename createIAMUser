@@ -1,5 +1,5 @@
 - name: Playbook to Create IAM User on Localstack
-  hosts: 10.200.13.46:31566
+  hosts: 127.0.0.1
 ​
   tasks:
   - name: Create user and attach managed policy
